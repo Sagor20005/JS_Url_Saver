@@ -1,0 +1,370 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Monospace;
+  color: #bfcacb;
+}
+.App{
+  height: 100vh;
+  width: 100vw;
+  background-color: #1d3538;
+}
+.active{
+  color: red;
+  font-weight: 1000;
+}
+
+/* CARD PROFILE SECTION */
+.card-containar{
+  background-color: #1d3538;
+  height: 100%;
+  width: 100%;
+  padding-top: 20px;
+}
+.card{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #1d3538;
+  text-align: center;
+  color: white;
+  align-items: center;
+  row-gap: 10px;
+  padding: 10px;
+}
+.card img{
+  min-height: 100px;
+  min-width: 100px;
+  max-height: 100px;
+  max-width: 100px;
+  border-radius: 50%;
+  object-position: center;
+  object-fit: cover;
+}
+
+
+/* // CART SOCIAL LINK SECTION */
+
+.social-containar{
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 10px;
+  row-gap: 10px;
+}
+.social{
+  height: 80px;
+  width: 100%;
+  background-color: #064348;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.social img{
+  height: 60px;
+  width: 60px;
+  max-height: 60px;
+  max-width: 60px;
+  border-radius: 5px;
+  object-position: center;
+  object-fit: cover;
+}
+.social button{
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: #047e88;
+}
+.social button:hover{
+  background-color: white;
+  color: black;
+}
+.delete_btn{
+  height: 20px;
+  width: 20px;
+}
+.floting_button{
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+.qr_btn{
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 90px;
+  right: 30px;
+}
+
+/* QR CODE PAGE  */
+.output_containar{
+  height: 100%;
+  width: 100%;
+}
+.output{
+  height: 400px;
+  width: 85%;
+  margin: auto;
+  background: linear-gradient(to right,#6f7a81,#5da2ce);
+  border-radius: 10px;
+  position: relative;
+  top: 30%;
+}
+.output_profile_box{
+  height: 150px;
+  width: 150px;
+  background-color: brown;
+  border-radius: 50%;
+  position: relative;
+  top: -70px;
+  margin: auto;
+}
+.output_profile_box img{
+  height: 100%;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.qr_box{
+  height: 250px;
+  width: 250px;
+  border-radius: 4px;
+  background-color: #d1bebe;
+  margin: auto;
+  position: relative;
+  top: -30px;
+}
+.qr_box img{
+  height: 100%;
+  width: 100%;
+  border-radius: 2px;
+}
+.qr_body{
+  height: 80%;
+}
+
+/* FORM DESING SECTION */
+.form{
+  min-height: 200px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  background:linear-gradient(to right , #4c5151,#2aff89) ;
+  margin: auto;
+  position: relative;
+  top: 30%;
+}
+.form img{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  object-position: center;
+  object-fit: cover;
+  margin-left: 40%;
+}
+.h{
+  margin: 10px;
+}
+.input{
+  margin-left: 20px;
+  margin-top: 10px;
+  height: 30px;
+  width: 240px;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px;
+  border: 1px solid black;
+  color: black;
+}
+.button{
+  height: 30px;
+  padding: 0 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 4px;
+}
+.label{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.select{
+  margin: 10px 20px;
+}
+.empty{
+  margin-top: 5px;
+  margin-left: 20px;
+  color: red;
+}
+    
+/* USER PROFILE NAVBAR SECTION */
+.user_nav ul{
+  height: 60px;
+  width: 100%;
+  padding: 10px;
+  background-color: #317eac;
+}
+.user_nav ul li{
+  display: inline-block;
+  line-height: 23px;
+  margin: 10px;
+  font-size: 16px;
+  list-style: none;
+}
+.user_nav ul li a{
+  text-decoration: none;
+}
+
+/* HOME SECTION */  
+.home_containar{
+  min-height: 100%;
+  min-width: 100%;
+  background: linear-gradient(to right, #312424,#21506e);
+}
+.admin_btn_box{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.admin_btn_box button{
+  height: 40px;
+  width: 150px;
+  border: 1px solid white;
+  background: transparent;
+  border-radius: 20px;
+  font-family: Sans-Serif;
+  font-size: 20px;
+  color: white;
+}
+.admin_btn_box button:hover{
+  background: linear-gradient(to right, #f1eded,#21506e);
+}
+
+.home_heading_box{
+  min-width: 100%;
+  min-height: 300px;
+  text-align: center;
+  padding: 10px;
+}
+.home_heading_box h1{
+  font-family: Sans-Serif;
+  margin-bottom: 10px;
+}
+    
+                /* ADMIN SECTION */
+.admin-social-containar{
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+}
+.admin-social-box{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+}
+.admin-social{
+  height: 80px;
+  width: 100%;
+  background-color: #064348;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.admin-social-info{
+  justify-content: space-between;
+  height: 150px;
+  width: 100%;
+  background-color: #064348;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.admin-social-info img{
+  height: 100px;
+  width: 100px;
+  max-height: 150px;
+  max-width: 150px;
+  border-radius: 5px;
+  object-position: center;
+  object-fit: cover;
+  margin-left: 10px;
+}
+.admin-social h2, .admin-social-info h2{
+  min-width: 50%;
+  max-width: 50%;
+  text-align: center;
+  font-size: ;
+}
+.admin-social button{
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: #047e88;
+}
+.admin-social button:hover{
+  background-color: black;
+}
+.admin-social button a{
+  text-decoration: none;
+}
+.navbar{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.navbar ul{
+  
+}
+.navbar ul li{
+  list-style: none;
+  margin: 10px;
+  display: inline-block;
+  font-size: 18px;
+  
+}
+.navbar ul li a{
+  text-decoration: none;
+  font-size: 18px;
+  
+}
+
+
+
+               /* DEXTOP MODE STYLE */
+@media(width > 500px){
+  .card{
+    width: 500px;
+  }
+  .social{
+    width: 500px;
+  }
+  .admin-social{
+    width: 500px;
+  }
+  .admin-social-box{
+    width: 500px;
+  }
+  .output{
+    width: 500px;
+  }
+}
