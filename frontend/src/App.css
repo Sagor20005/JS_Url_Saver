@@ -150,8 +150,7 @@
 }
 .qr_body{
   position: absolute;
-  margin: auto;
-  inset: 0;
+  top: 30%;
   height: 80%;
 }
 
