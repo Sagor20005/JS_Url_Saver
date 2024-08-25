@@ -157,6 +157,7 @@
 /* FORM DESING SECTION */
 .form{
   min-height: 200px;
+  max-height: 500px;
   width: 300px;
   padding: 10px;
   border-radius: 10px;
