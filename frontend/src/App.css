@@ -6,7 +6,7 @@
   color: #bfcacb;
 }
 .App{
-  min-height: 100vh;
+  min-height: 600px;
   width: 100vw;
   background-color: #1d3538;
 }
@@ -157,14 +157,13 @@
 /* FORM DESING SECTION */
 .form{
   min-height: 200px;
-  max-height: 300px;
   width: 300px;
   padding: 10px;
   border-radius: 10px;
   background:linear-gradient(to right , #4c5151,#2aff89) ;
   margin: auto;
-  position: absolute;
-  inset: 0;
+  position: relative;
+  top: 30%;
 }
 .form img{
   height: 70px;
