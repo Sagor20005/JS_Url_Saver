@@ -6,7 +6,7 @@
   color: #bfcacb;
 }
 .App{
-  min-height: 600px;
+  min-height: 1000px;
   width: 100vw;
   background-color: #1d3538;
 }
@@ -162,7 +162,7 @@
   border-radius: 10px;
   background:linear-gradient(to right , #4c5151,#2aff89) ;
   margin: auto;
-  position: relative;
+  position: absolute;
   top: 30%;
 }
 .form img{
