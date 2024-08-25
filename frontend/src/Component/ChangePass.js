@@ -56,7 +56,7 @@ const ChangePassword = ()=>{
     <>
       {
         <div className="form">
-          <h1 className="h">Update user</h1>
+          <h1 className="h">Change password</h1>
           
           <input className="input"
           type="text"
