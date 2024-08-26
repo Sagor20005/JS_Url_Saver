@@ -157,9 +157,11 @@
 
 /* FORM DESING SECTION */
 .from_body{
-  margin: auto;
-  position: relative;
-  top: 30%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .form{
   min-height: 200px;
