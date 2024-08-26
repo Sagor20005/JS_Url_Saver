@@ -6,8 +6,8 @@
   color: #bfcacb;
 }
 .App{
-  height: 1000px;
-  width: 100vw;
+  min-height: 100vh;
+  min-width: 100vw;
   background-color: #1d3538;
 }
 .active{
@@ -149,9 +149,10 @@
   border-radius: 2px;
 }
 .qr_body{
+  height: 100%;
+  width: 100%;
   position: absolute;
-  top: 30%;
-  height: 80%;
+  top: 0%;
 }
 
 /* FORM DESING SECTION */
