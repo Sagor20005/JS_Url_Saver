@@ -158,7 +158,8 @@
 /* FORM DESING SECTION */
 .from_body{
   position: absolute;
-  left: 10%;
+  margin: auto;
+  inset: 0;
 }
 .form{
   min-height: 200px;
