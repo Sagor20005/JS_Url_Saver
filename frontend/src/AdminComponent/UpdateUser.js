@@ -64,7 +64,7 @@ const UpdateUser = ()=>{
   
   return(
     <>
-      {
+      {<div className="from_body">
         <div className="form">
           <h1 className="h">Update User</h1>
           <img src={user.img} alt="profile"/>
@@ -131,6 +131,7 @@ const UpdateUser = ()=>{
           
           <button className="button" onClick={()=>HandleUpdate(user._id)}>Update</button>
           
+        </div>
         </div>
       }
     </>
