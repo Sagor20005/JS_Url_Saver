@@ -56,7 +56,7 @@ const AddAccount = ()=>{
   
   return(
     <>
-    {
+    {<div className="from_body">
       <div className="form">
         <h1 className="h">Add Account</h1>
         <select className="select" onChange={(e)=>setAccount((previous)=>{
@@ -88,6 +88,7 @@ const AddAccount = ()=>{
         {!account.url && empty && <p className="empty">Please enter profile Link</p>}
         
         <button className="button" onClick={HandleSubmit}>Add Now</button>
+      </div>
       </div>
     }
     </>
