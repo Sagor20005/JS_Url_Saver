@@ -50,7 +50,7 @@ const Login = ()=>{
   }
   return(
     <>
-      {
+      {<div className="from_body">
         <div className="form">
           <h1 className="h">Login</h1>
           
@@ -74,6 +74,7 @@ const Login = ()=>{
           })}
           />
           <button className="button" onClick={HandleLogin}>Login</button>
+        </div>
         </div>
       }
     </>
