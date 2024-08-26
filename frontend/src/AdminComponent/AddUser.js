@@ -45,7 +45,7 @@ const AddUser = ()=>{
   }
   return(
     <>
-      {
+      {<div className="from_body">
         <div className="form">
           <h1 className="h">Add User</h1>
           <input className="input" 
@@ -95,6 +95,7 @@ const AddUser = ()=>{
           />
           
           <button className="button" onClick={HandleSubmit}>Submit</button>
+        </div>
         </div>
       }
     </>
