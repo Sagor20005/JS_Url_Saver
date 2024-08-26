@@ -16,12 +16,14 @@ const AdminLogin = ()=>{
     }
   }
   return(
+    <div className="from_body">
     <div className="form">
       <h1 className="h">Login</h1>
       <input className="input" type="password" placeholder="enter password"
       onChange={(e)=>setPass(e.target.value)}
       />
       <button className="button" onClick={HandleLogin}>Login</button>
+    </div>
     </div>
     );
 };
