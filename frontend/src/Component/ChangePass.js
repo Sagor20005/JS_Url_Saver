@@ -54,7 +54,7 @@ const ChangePassword = ()=>{
   
   return(
     <>
-      {
+      {<div className="from_body">
         <div className="form">
           <h1 className="h">Change password</h1>
           
@@ -82,6 +82,7 @@ const ChangePassword = ()=>{
           
           <button className="button" onClick={UpdatePassword} >Update</button>
           
+        </div>
         </div>
       }
     </>
