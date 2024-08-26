@@ -157,8 +157,8 @@
 
 /* FORM DESING SECTION */
 .from_body{
-  position: absolute;
   margin: auto;
+  position: relative;
   top: 30%;
 }
 .form{
